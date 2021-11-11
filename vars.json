@@ -4,5 +4,6 @@
     "aws_secret_key": "",
     "instance_type": "",
     "subnet_id": "",
-    "source_ami": ""
+    "source_ami": "",
+    "prod_username": ""
 }
