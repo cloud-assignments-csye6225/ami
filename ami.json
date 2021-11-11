@@ -41,7 +41,14 @@
                 "sudo apt-get upgrade -y",
                 "sudo apt-get install nginx -y",
                 "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -",
-                "sudo apt install nodejs"
+                "sudo apt install nodejs",
+                "sudo apt update",
+                "sudo apt install ruby-full",
+                "sudo apt install wget",
+                "cd /home/ubuntu",
+                "wget https://bucket-name.s3.region-identifier.amazonaws.com/latest/install",
+                "chmod +x ./install",
+                "sudo ./install auto"
 
               ]
           }
