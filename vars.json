@@ -4,6 +4,7 @@
     "aws_secret_key": "",
     "instance_type": "",
     "subnet_id": "",
-    "source_ami": "",
-    "prod_username": ""
+    "source_ami": "ami-09e67e426f25ce0d7",
+    "prod_username": "",
+    "ssh_username": "ubuntu"
 }
