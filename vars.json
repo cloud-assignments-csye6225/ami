@@ -1,7 +1,7 @@
 {
     "aws_region": "us-east-1",
-    "aws_access_key": "",
-    "aws_secret_key": "",
+    "aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
+    "aws_secret_key": "{{env `AWS_SECRET_KEY_ID`}}",
     "instance_type": "",
     "subnet_id": "",
     "source_ami": "ami-09e67e426f25ce0d7",
