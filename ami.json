@@ -1,14 +1,4 @@
 {
-    "variables": {
-      "access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
-      "aws_secret_key": "{{env `AWS_SECRET_KEY_ID`}}",
-      "aws_region": "{{env `AWS_REGION`}}",
-      "subnet_id": "{{env `AWS_SUBNET_ID`}}",
-      "source_ami": "{{env `AWS_SOURCE_AMI`}}",
-      "ssh_username": "{{env `AWS_SSH_USERNAME`}}",
-      "prod_username": "{{env `AMI_USERS`}}"
-
-    },
     "builders": [
         {
             "type": "amazon-ebs",
@@ -61,7 +51,6 @@
                 "sudo apt-get -qy update",
                 "sudo apt-get -qy upgrade",
                 "sudo service codedeploy-agent stop"
-
               ]
           }
       ]
