@@ -1,10 +1,10 @@
 {
-    "aws_region": "us-east-1",
-    "aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
+    "access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
     "aws_secret_key": "{{env `AWS_SECRET_KEY_ID`}}",
-    "instance_type": "",
-    "subnet_id": "",
-    "source_ami": "ami-09e67e426f25ce0d7",
-    "prod_username": "",
-    "ssh_username": "ubuntu"
-}
+    "aws_region": "{{env `AWS_REGION`}}",
+    "subnet_id": "{{env `AWS_SUBNET_ID`}}",
+    "source_ami": "{{env `AWS_SOURCE_AMI`}}",
+    "ssh_username": "{{env `AWS_SSH_USERNAME`}}",
+    "prod_username": "{{env `AMI_USERS`}}"
+
+  }
