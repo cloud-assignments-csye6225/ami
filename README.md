@@ -18,7 +18,6 @@ Hashicorp Packer
     - Assign a key pair or create a new key pair and store it on local machine (key_pair.pem)
     - Review and launch the instance
 6) SSH into the instance
-
     - ssh -i key_pair.pem ubuntu@[instance_public_ip_address]
 7) Copy code artifacts from local to EC2 instance using SCP command
     - SCP -i key_pair.pem -r [source] [destination]
