@@ -28,4 +28,6 @@ Hashicorp Packer
 
 # Additional files required
 1. buildAmi.sh - script with input values for AMI
-2. source files containing the application 
+2. source files containing the application
+ 
+
